@@ -24,6 +24,6 @@ All the pre-build UI components, Views and user flows for the LMG iOS Platform S
   s.vendored_frameworks = 'LMGUI.xcframework'
 
   s.frameworks = ['UIKit', 'CoreLocation', 'MapKit']
-  s.dependency 'LMGData', '1.9.0-rc.23'
+  s.dependency 'LMGData', '~> 1.9.0'
   s.dependency 'SDWebImage', '~> 5.11'
 end
